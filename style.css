@@ -1,4 +1,47 @@
 body{
     background: #fff;
-    color: #1c1e21;
+    text-align: center;
+    margin: 0px;
 }
+  
+h1{
+    padding: 5px 0px 5px;
+    margin: 0px;
+}
+
+main{
+    border: 2px solid grey;
+    border-radius: 10px;
+    align-items: center;
+    padding: 16px;
+    width: 420px;
+    margin: 0px 0px 0px 270px;
+   
+}
+.titles{
+    padding: 10px 16px;
+    position: relative;
+}
+
+.subtitle{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.agile{
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#606770;
+}
+
+.input-padrao {
+    padding: 11px;
+    margin: 0px 0px 14px 0px;
+    font-size: 15px;
+    border-bottom-left-radius:  1px solid #ccd0d5;
+
+}
+
