@@ -1,47 +1,200 @@
 body{
-    background: #fff;
-    text-align: center;
+    background: #f0f2f5;
     margin: 0px;
 }
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px 0px 0px;
+}
   
-h1{
-    padding: 5px 0px 5px;
-    margin: 0px;
+.logo_face{
+    width: 284px;
+    height: 100px;
+    padding: 5px 0px 0px;
+    text-align: center;
 }
 
 main{
-    border: 2px solid grey;
-    border-radius: 10px;
+    border: 8px;
+    box-shadow: 20px #ccd0d5;
+    border-radius: 8px;
     align-items: center;
-    padding: 16px;
     width: 420px;
-    margin: 0px 0px 0px 270px;
+    margin: 0px auto;
    
 }
 .titles{
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
     padding: 10px 16px;
-    position: relative;
+    
+}
+
+p{
+    margin: 0 auto;
 }
 
 .subtitle{
-    font-size: 25px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 400px;
+    height: 32px;
+}
+
+.informations{
+    border: 1px;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    
 }
 
 .agile{
-    font-size: 14px;
+
+    font-size: 15px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
     color:#606770;
+    margin: 0px;
+    width: 400px;
+    height: 24px;
+}
+
+label{
+    border-color: none;
+    width: 0;
+    height: 0;
+}
+
+label:focus-visible{
+    border: 5px solid #ccd0d5;
+}
+
+input{
+    
+    border-radius: 5px;
+    border-color: #ccd0d5;
+    width: 0 auto;
+    margin: 0px 10px 14px 0px;
+   
+}
+
+.name{
+    display: flex; 
+        
+}
+
+.contact{
+
+    display: flex;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+.password{
+    
+    display: flex;
+    border-radius: 10px;
 }
 
 .input-padrao {
+
+    width: 100%;
     padding: 11px;
     margin: 0px 0px 14px 0px;
     font-size: 15px;
-    border-bottom-left-radius:  1px solid #ccd0d5;
+   
+}
+
+fieldset{
+    display: inline flex;
+    font-size: arial;
+    border-style: none;
+    text-align: center;
+    width:0 auto;
+    padding: 0;
+}
+
+.data_de_nascimento{
+    display: inline;
+    color: #606770;
+    font-size: 12px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 2px 0px 4px;
+}
+
+img{
+    width: 12px;
+    height: 12px;
+}
+select{
+    display: inline flex;
+    border-radius: 4px;
+    border-color: #ccd0d5;
+    font-size: 15px;
+    height: 36px;
+    width: 0 auto;
+    padding: 0px 20px 0px 8px;
+}
+
+.radio-genero{
+    display: flex;
+    color: #606770;
+    font-size: 12px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 2px 0px 4px;
+
+}
+.saiba_mais{
+    color: #777;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px 0px;
 
 }
 
+.politicas{
+
+    color: #777;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 11px 0px;
+}
+
+button{
+    
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #00a400;
+    border-radius: 6px ;
+    border-style: none;
+    width: 194px;
+    height: 36px;
+    font-size: 18px;
+    color: #fff;    
+}
+
+a{
+    text-decoration: none;       
+}
+
+.link__conta{
+    color: #1877f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 0px;
+}

@@ -13,7 +13,7 @@
     <body>
 
         <header class="logo">
-			<h1><img src="logo.png" alt="Logo do Facebook"></h1>
+			<img class="logo_face" src="logo_face.svg" alt="Logo do Facebook">
         </header>    
     
         <main>
@@ -26,17 +26,17 @@
                 </div>
             </div>
             <form class="informations">
-                <div class="name">
+               
                     <label for="nome"></label>
-                    <input type="text" id="nome" class="input-padrao" required placeholder="Nome">
-
+                    <input type="text" id="nome" class="input-nome" required placeholder="Nome">
+                
                     <label for="sobrenome"></label>
-                    <input type="text" id="sobrenome" class="input-padrao" required placeholder="Sobrenome">
-                </div>
+                    <input type="text" id="sobrenome" class="input-sobrenome" required placeholder="Sobrenome">
+                
                 
                 <div class="contact">
-                    <label for="telefoneoucelular"></label>
-                    <input type="text" id="telefoneoucelular" class="input-padrao" required placeholder="Telefone ou Celular">
+                    <label for="celularouemail"></label>
+                    <input type="text" id="celularouemail" class="input-padrao" required placeholder="Celular ou email">
                 </div>
 
                 <div class="password">    
@@ -45,8 +45,12 @@
                 </div>
                 
                 <fieldset>
-					<legend>Data de Nascimento</legend>
-					<select>
+					<div class="data_de_nascimento">
+                        <legend>Data de Nascimento</legend>
+                        <img class="help" src="icone_ajuda.jpg" alt="help">
+					</div>
+
+                    <select class="select_dia">
 						<option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -79,7 +83,7 @@
                         <option value="30">30</option>
                         <option value="31">31</option>
         			</select>
-                    <select>
+                    <select class="select_mes">
 						<option value="1">Jan</option>
                         <option value="2">Fev</option>
                         <option value="3">Mar</option>
@@ -93,7 +97,7 @@
                         <option value="11">Nov</option>
                         <option value="12">Dez</option>
 					</select>
-                    <select>
+                    <select class="select_ano">
 						<option value="2022">2022</option>
                         <option value="2021">2021</option>
                         <option value="2020">2020</option>
@@ -102,30 +106,30 @@
 				</fieldset>
 
                 <fieldset>
-					<legend>Gênero</legend>
-
+					<legend class="radio-genero">Gênero</legend>
+                    <img class="help" src="icone_ajuda.jpg" alt="help">        
 					<label for="radio-feminino"><input type="radio" name="genero" value="feminino" id="radio-feminino"> Feminino</label>
 					<label for="radio-masculino"><input type="radio" name="genero" value="masculino" id="radio-masculino"> Masculino</label>
 					<label for="radio-personalizado"><input type="radio" name="genero" value="personalizado" id="radio-personalizado"> Personalizado</label>
 				
                 </fieldset>
 
-                <div>
+                <div class="saiba_mais">
                     <p>As pessoas que usam nosso serviço podem ter carregado suas informações de contato no Facebook.
                     <a href="https://pt-br.facebook.com/help/637205020878504">Saiba mais.</a></p>
                 </div>
 
                 <div>
-                    <p>Ao clicar em Cadastre-se, você concorda com nossos 
+                    <p class="politicas">Ao clicar em Cadastre-se, você concorda com nossos 
                     <a href="https://pt-br.facebook.com/legal/terms/update"> Termos</a>", "
                     <a href="https://pt-br.facebook.com/about/privacy/update">Política de Dados</a>" e "
                     <a href="https://pt-br.facebook.com/policies/cookies/">Política de Cookies</a>". Você poderá receber notificações por SMS e cancelar isso quando quiser."
                     </p>    
                 </div>
 
-                <button>Cadastre-se</button>
+                <button><strong>Cadastre-se</strong></button>
 
-                <div>
+                <div class="link__conta">
                     <a href="https://pt-br.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjU2OTY0ODU5LCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D">Já tem uma conta?</a>
                 </div>
 
