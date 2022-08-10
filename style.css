@@ -17,13 +17,14 @@ header{
     text-align: center;
 }
 
-main{
+.conteudo{
     border: 8px;
-    box-shadow: 20px #ccd0d5;
     border-radius: 8px;
     align-items: center;
     width: 420px;
+    position: relative;
     margin: 0px auto;
+    
    
 }
 .titles{
@@ -45,6 +46,12 @@ p{
     font-weight: bold;
     width: 400px;
     height: 32px;
+}
+
+.nome-completo{
+    display: flex;
+
+
 }
 
 .informations{
@@ -69,22 +76,25 @@ p{
 }
 
 label{
-    border-color: none;
-    width: 0;
-    height: 0;
+    border-color: #ccd0d5;
+    width: 110px;
+    height: 36px;
 }
 
 label:focus-visible{
     border: 5px solid #ccd0d5;
+    
 }
 
 input{
-    
+
+    font-size: 15px;
     border-radius: 5px;
-    border-color: #ccd0d5;
+    border: #ccd0d5 solid 1px;
     width: 0 auto;
     margin: 0px 10px 14px 0px;
-   
+    height: 40px;
+    outline: none;
 }
 
 .name{
@@ -94,21 +104,21 @@ input{
 
 .contact{
 
-    display: flex;
-    border-radius: 10px;
-    margin: 0px 0px 0px 0px;
+    width: 0px auto;
+    border-radius: 10px; 
+    
 }
 
 .password{
     
-    display: flex;
+    width: 0px auto;
     border-radius: 10px;
+
 }
 
 .input-padrao {
 
-    width: 100%;
-    padding: 11px;
+    width: 98.5%;
     margin: 0px 0px 14px 0px;
     font-size: 15px;
    
@@ -124,7 +134,7 @@ fieldset{
 }
 
 .data_de_nascimento{
-    display: inline;
+    display: flex;
     color: #606770;
     font-size: 12px;
     text-align: left;
@@ -133,9 +143,17 @@ fieldset{
     margin: 2px 0px 4px;
 }
 
+.select_data{
+    display: flex;
+    width: 0 auto;
+    margin: 2px 0px 4px;
+    color: #606770;
+}
+
 img{
     width: 12px;
     height: 12px;
+    padding: 0px auto;
 }
 select{
     display: inline flex;
@@ -145,6 +163,86 @@ select{
     height: 36px;
     width: 0 auto;
     padding: 0px 20px 0px 8px;
+    outline: none;
+}
+
+.select_dia{
+    width: 125px;
+    padding: 0px 20px 0px 8px;
+    
+
+}
+
+.select_mes{
+    width: 125px;
+    margin: 0px 0px 0px 12px;
+}
+
+.select_ano{
+    width: 112px;
+    margin: 0px 0px 0px 12px;
+}
+
+.genero{
+    flex-direction: column;
+    display: flex;
+}
+
+.opcao-genero{
+    display: flex;
+    align-items: center;
+    width: 0 auto;
+    margin: 2px 0px 4px;
+    width: 0 auto;
+    margin: 0px 10px 14px 0px;
+    height: 40px;
+    outline: none;
+
+}
+
+.feminino{
+    display: flex;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: #ccd0d5 solid 1px;
+    width: 0 auto;
+    padding: 0px 28px 0px 10px;
+}
+
+
+.masculino{
+    font-size: 15px;
+    border-radius: 5px;
+    border: #ccd0d5 solid 1px;
+    width: 0 auto;
+    margin: 0px 0px 0px 12px;
+    padding: 0px 28px 0px 10px;
+}
+
+.personalizado{
+
+    font-size: 15px;
+    border-radius: 5px;
+    border: #ccd0d5 solid 1px;
+    width: 0 auto;
+    margin: 0px 0px 0px 12px;
+    padding: 0px 28px 0px 10px;
+}
+
+
+.linha-genero{
+    display: flex;
+    color: #606770;
+    font-size: 12px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 2px 0px 4px;
+}
+
+.help{
+    display: flex;
 }
 
 .radio-genero{
@@ -155,13 +253,23 @@ select{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 2px 0px 4px;
+    align-items: center;
 
 }
+
 .saiba_mais{
     color: #777;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 11px 0px;
+
+}
+
+input.radio-feminino{
+    
+    
+    width: 40px;
+    height: 10px;
 
 }
 
