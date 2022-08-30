@@ -27,7 +27,7 @@
             </div>
             <form class="informations">
                 <div class="nome-completo">
-                    <label for="nome"></label>
+                    <label class="nome" for="nome"></label>
                     <input type="text" id="nome" class="input-nome" required placeholder="Nome">
                 
                     <label for="sobrenome"></label>
@@ -108,7 +108,7 @@
 
 				</fieldset>
 
-                <fieldset class="genero">
+                <fieldset>
                 
                     <div class="linha-genero">
 					    <legend class="radio-genero">Gênero</legend>
@@ -118,17 +118,19 @@
                     <div class="opcao-genero">
 
                         <div class="l_feminino">
-                            <label class="feminino" for="radio-feminino">Feminino</label>
-                            <input class= "i_feminino" type="radio" name="genero" value="feminino" id="radio-feminino"/> 
+                            
+                            <label class="l_feminino2" for="radio-feminino">Feminino</label>
+                            <input type="radio" name="genero" value="feminino" id="radio-feminino"/>
                         </div>
 
                         <div class="l_masculino">
-                            <label class="masculino" for="radio-masculino">Masculino</label>
+                            <label class="l_masculino2" for="radio-masculino">Masculino</label>
                             <input type="radio" name="genero" value="masculino" id="radio-masculino"/> 
+                            
                         </div>
 
                         <div class="l_personalizado">
-                            <label class="personalizado"for="radio-personalizado">Personalizado</label>
+                            <label class="l_personalizado2"for="radio-personalizado">Personalizado</label>
                             <input type="radio" name="genero" value="personalizado" id="radio-personalizado"/>
 				        </div>
 
