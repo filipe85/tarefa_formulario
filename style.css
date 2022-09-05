@@ -3,8 +3,10 @@
 }
 
 body{
+
     background: #f0f2f5;
     margin: 0px;
+
 }
 
 header{
@@ -12,21 +14,27 @@ header{
     display: flex;
     justify-content: space-around;
     padding-top: 5px 0px 0px;
+
 }
   
 .logo_face{
+
     width: 284px;
     height: 100px;
     padding: 5px 0px 0px;
     text-align: center;
+
 }
 
 main {
+
     display: flex;
     flex-direction: column;
+
 }
 
 .box-container {
+
     display: flex;
     flex-direction: column;
     border: 8px;
@@ -35,40 +43,53 @@ main {
     width: 420px;
     margin: 0 auto;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+
 }
 
-
 .titles{
+
     background-color: #fff;
     border-radius: 8px 8px 0 0;
     font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
     padding: 10px 16px;
     width: 100%;
+
 }
 
 .subtitle{
+
     text-align: center;
     font-size: 25px;
     font-weight: bold;
     height: 32px;
+
 }
 
 .nome-completo{
+
     display: flex;
     max-width: 100%;
+    gap: 3%;
+    margin: 0px 0px 10px 0px;
+    
 }
 
 .input-nome{
+
     width: 100%;
+    padding: 10px;
+
 }
 
 .informations{
+
     background-color: #fff;
     border-radius: 0 0 8px 8px;
     border-top: 1px solid #dadde1;
     padding: 16px;
     height: 520px;
     max-width: 100%;
+
 }
 
 .agile{
@@ -83,25 +104,28 @@ main {
 }
 
 label{
-    border-color: #ccd0d5;
 
+    border-color: #ccd0d5;
+    font-family: arial;
+    font-size: 15px;
 
 }
 
 label:focus-visible{
+
     border: 5px solid #ccd0d5;
     
 }
 
 input{
+
     font-size: 15px;
     border-radius: 5px;
     border: #ccd0d5 solid 1px;
     height: 40px;
     outline: none;
+
 }
-
-
 
 .password{
     
@@ -113,12 +137,14 @@ input{
 .input-padrao {
 
     width: 100%;
-
     font-size: 15px;
-   
+    margin: 0px 0px 10px;
+    padding: 10px;
+    
 }
 
 fieldset{
+
     display: flex;
     flex-direction: column;
     font-size: arial;
@@ -126,9 +152,11 @@ fieldset{
     text-align: center;
     width:0 auto;
     padding: 0;
+
 }
 
 .data_de_nascimento{
+
     display: flex;
     color: #606770;
     font-size: 12px;
@@ -136,21 +164,28 @@ fieldset{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 2px 0px 4px;
+
 }
 
 .select_data{
+
     display: flex;
     width: 0 auto;
     margin: 2px 0px 4px;
     color: #606770;
+
 }
 
 img{
+
     width: 12px;
     height: 12px;
     padding: 0px auto;
+
 }
+
 select{
+
     display: flex;
     border-radius: 4px;
     border-color: #ccd0d5;
@@ -159,38 +194,50 @@ select{
     width: 0 auto;
     padding: 0px 20px 0px 8px;
     outline: none;
+    background: white;
+
 }
 
 .select_dia{
+
     width: 125px;
     padding: 0px 20px 0px 8px;
     
 }
 
 .select_mes{
+    
     width: 125px;
     margin: 0px 0px 0px 12px;
+
 }
 
 .select_ano{
+
     width: 112px;
     margin: 0px 0px 0px 12px;
+
 }
 
 .linha-genero{
+
     display: inline flex;
     align-items: baseline;
+
 }
 
 .generos{
+
     display: flex;
     align-items: center;
     gap: 5px;
     width: 100%;
     height: 50px;
+
 }
 
 .opcao-genero{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,11 +245,12 @@ select{
     border-radius: 5px;
     border: #ccd0d5 solid 1px;
     width: 100%;
-    height: 36px;    
+    height: 36px;
+
 }
 
-
 .linha-genero{
+
     display: flex;
     color: #606770;
     font-size: 12px;
@@ -210,13 +258,17 @@ select{
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 2px 0px 4px;
+
 }
 
 .help{
+
     display: flex;
+
 }
 
 .radio-genero{
+
     display: flex;
     color: #606770;
     font-size: 12px;
@@ -229,6 +281,7 @@ select{
 }
 
 .saiba_mais{
+
     color: #777;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
@@ -242,6 +295,7 @@ select{
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 11px 0px 22px;
+
 }
 
 button{
@@ -260,13 +314,17 @@ button{
 }
 
 a{
-    text-decoration: none;       
+
+    text-decoration: none; 
+
 }
 
 .link__conta{
+
     color: #1877f2;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     text-align: center;
     padding: 10px 0px;
+
 }
